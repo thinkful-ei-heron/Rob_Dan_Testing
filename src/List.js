@@ -9,7 +9,7 @@ return(
               <h2>{props.header}</h2>
     </header>
       <div className="List-cards">
-          {props.cards.map(card =>{
+          {props.cards.map(card => {
             return(
               <Card title={card.title}  content={card.content} key={card.id}/>
             )
